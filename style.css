@@ -1,0 +1,35 @@
+body{
+    background-color: #B07423;
+}
+.container{
+    width: 600px;
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+    margin: 200px;
+}
+.card{
+    background-color: #FCBC65;
+    color: #fff;
+}
+.card-text{
+    margin-bottom: 20px;
+}
+.btn{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.line{
+    background-color: #fff;
+    width: 100px;
+    margin: 0px auto 5px auto;
+    height: 3px;
+    border-radius: 30PX;
+}
+@media screen and (max-width: 425px){
+    .container{
+        width: 300px;
+    }
+}
